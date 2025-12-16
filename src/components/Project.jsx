@@ -8,19 +8,25 @@ const Project = () => {
     dots: false,
     // infinite : true,
     speed : 500,
-    slidesToShow : 2,
+    slidesToShow : 3,
     slidesToScroll : 1,
-    arrow: false,
-    responsive : [
-      {
-        breakpoint : 769,
-        settings :{
-          slidesToShow: 1,
-          SlidesToscroll:1,
-        },
+    arrows: false,
+     responsive: [
+    {
+      breakpoint: 1024,   // Tablets / small laptops
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
       },
-    
-    ]
+    },
+    {
+      breakpoint: 768,    // Mobile
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
   }
   return (
     <div id='Project' className='max-w-7xl m-auto'>
