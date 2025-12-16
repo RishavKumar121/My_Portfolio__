@@ -12,3 +12,15 @@ body ,html{
     overflow-x: hidden;
 }
 
+.slick-dots li button:before{
+    color: white;
+}
+.slick-dots li.slick-active button:before{
+    color: white;
+}
+.slick-next{
+    right: -18px;
+}
+.slick-prev{
+    left: -18px;
+}
