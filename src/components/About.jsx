@@ -8,8 +8,8 @@ const About = () => {
     <div id='About' className='p-5 max-w-7xl bg-slate-950 m-auto'>
         <h1 className='text-5xl py-5  text-[#0f9df8] font-bold text-center'>About me</h1>
 
-        <div className='flex flex-col md:flex-row justify-between gap-8 my-7'>
-            <div data-aos="fade-right" className='md:w-[30%] m-auto'>
+        <div className='flex flex-col md:flex-row justify-between gap-8 my-7 '>
+            <div data-aos="fade-right" className='md:w-[30%] md:h-[440px]  m-auto'>
                 <img src= {AboutImg} alt="" className=' aspect-square md:aspect-auto  md:w-full h-full object-cover rounded-md'/>
             
             </div>

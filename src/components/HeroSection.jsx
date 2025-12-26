@@ -6,8 +6,8 @@ import { FaIdCardAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import ProfileImg from "../assets/Profileimage.jpg"
-import Resume from "../assets/Rishav-Professional-CV-Resume.pdf"
+import ProfileImg from "../assets/Profileimage.png"
+import Resume from "../assets/Rishav Professional Resume - 1page.pdf"
 
 const HeroSection = () => {
   let {
