@@ -6,7 +6,7 @@ import { FaIdCardAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import ProfileImg from "../assets/Profileimage.png"
+import Picimage from "../assets/Pic.JPG"
 import Resume from "../assets/Rishav Professional Resume - 1page.pdf"
 
 const HeroSection = () => {
@@ -48,7 +48,7 @@ const HeroSection = () => {
 
       <div data-aos="fade-left" className="bg-linear-to-br from-blue-950 to-slate-900 text-center rounded-md p-6  sm:w-[70%] md:w-[60%] lg:w-[40%]">
        <div>
-        <img src={ProfileImg} alt="" className="w-[139px] h-[139px] rounded-full m-auto"/>
+        <img src={Picimage} alt="" className="w-[139px] h-[139px] rounded-full m-auto"/>
        </div>
        <div className="bg-[#061840] mt-3 p-4 rounded-md">
          <p>{name}</p>
